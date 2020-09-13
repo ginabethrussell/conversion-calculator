@@ -93,6 +93,13 @@ main {
      border: 2px solid blue;
      border-radius: 5px;
      background-color: #f0f3f4;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     font-size: 3rem;
+    font-family: 'Graduate', cursive;
+   padding-right: 10px;
+   padding-bottom: 10px;
     
  }
  section.number-keypad {
@@ -118,11 +125,9 @@ main {
     align-items: center;
     outline: none;
     border-radius: 5px;
+    touch-action: manipulation;
 }
-button#clear {
-    /* align-self: center;
-    margin: 10px 0; */
-}
+
 .operation-keypad {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +148,7 @@ button#clear {
     color: white;
     outline: none;
     border-radius: 5px;
+    touch-action: manipulation;
 }
 footer{
     padding: 15px;

@@ -21,29 +21,30 @@
                 </div> 
             </section>
             <section class="number-keypad">
-                <button id="7">7</button>
-                <button id="8">8</button>
-                <button id="9">9</button>
-                <button id="4">4</button>
-                <button id="5">5</button>
-                <button id="6">6</button>
-                <button id="1">1</button>
-                <button id="2">2</button>
-                <button id="3">3</button>
-                <button id="0">0</button>
-                <button id="clear">C</button>
+                <button onclick="addValue('7')" id="7">7</button>
+                <button onclick="addValue('8')" id="8">8</button>
+                <button onclick="addValue('9')" id="9">9</button>
+                <button onclick="addValue('4')" id="4">4</button>
+                <button onclick="addValue('5')" id="5">5</button>
+                <button onclick="addValue('6')" id="6">6</button>
+                <button onclick="addValue('1')" id="1">1</button>
+                <button onclick="addValue('2')" id="2">2</button>
+                <button onclick="addValue('3')" id="3">3</button>
+                <button onclick="addValue('0')" id="0">0</button>
+                <button onclick="addValue('.')" id=".">.</button>
+                <button onclick="addValue('clear')" id="clear">C</button>
             </section>
             <section class="operation-keypad">
-                <button id="f-to-c">&deg;F &rarr; &deg;C</button>
-                <button id="c-to-f">&deg;C &rarr; &deg;F</button>
-                <button id="m-to-km">mi &rarr; km</button>
-                <button id="km-to-m">km &rarr; mi</button>
-                <button id="f-m">ft &rarr; m</button>
-                <button id="m-f">m &rarr; ft</button>
-                <button id="g-to-l">gal &rarr; L</button>
-                <button id="l-to-gal">L &rarr; gal</button>
-                <button id="p-to-kg">lb &rarr; kg</button>
-                <button id="kg-to-p">kg &rarr; lb</button>
+                <button onclick="convertUnit('f-c')" id="f-to-c">&deg;F &rarr; &deg;C</button>
+                <button onclick="convertUnit('c-f')" id="c-to-f">&deg;C &rarr; &deg;F</button>
+                <button onclick="convertUnit('m-km')" id="m-to-km">mi &rarr; km</button>
+                <button onclick="convertUnit('km-m')" id="km-to-mi">km &rarr; mi</button>
+                <button onclick="convertUnit('f-m')" id="f-m">ft &rarr; m</button>
+                <button onclick="convertUnit('m-f')" id="m-f">m &rarr; ft</button>
+                <button onclick="convertUnit('g-l')" id="g-to-l">gal &rarr; L</button>
+                <button onclick="convertUnit('l-g')" id="l-to-g">L &rarr; gal</button>
+                <button onclick="convertUnit('p-kg')" id="p-to-kg">lb &rarr; kg</button>
+                <button onclick="convertUnit('kg-p')" id="kg-to-p">kg &rarr; lb</button>
             </section>
         </main>
         <footer>
