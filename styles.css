@@ -97,7 +97,7 @@ main {
      justify-content: flex-end;
      align-items: flex-end;
      font-size: 3rem;
-    font-family: 'Graduate', cursive;
+    font-family: 'Graduate', monospace;
    padding-right: 10px;
    padding-bottom: 10px;
     
@@ -118,7 +118,7 @@ main {
     margin-right: 2px;
     padding: 16px 8px;
     font-size: 1.8rem;
-    font-family: 'Graduate', cursive;
+    font-family: 'Graduate', monospace;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,4 +157,15 @@ footer{
 footer p {
     font-size: 1.6rem;
     letter-spacing: 2px;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    .container {
+        width: 100%;
+        min-width: 330px;   
+    }
+    header {
+        width: 85%;
+    }
 }
