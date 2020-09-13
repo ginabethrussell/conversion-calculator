@@ -120,7 +120,7 @@ main {
     font-size: 1.8rem;
     font-family: 'Graduate', monospace;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     outline: none;
